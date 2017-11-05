@@ -1,0 +1,12 @@
+CONFIG_APP = {
+	API : { 
+		SHORTENER : {
+			HOST : CONFIG_APP.API.SHORTENER.HOST,
+			URL : {
+				SHORT : CONFIG_APP.API.SHORTENER.HOST + 'shorten',
+				RETRIEVE : CONFIG_APP.API.SHORTENER.HOST + 'retrieve',
+				MORE_ACCESSED: CONFIG_APP.API.SHORTENER.HOST + 'more-accessed',
+			}			
+		}
+	}
+};

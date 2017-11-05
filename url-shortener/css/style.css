@@ -1,0 +1,254 @@
+@font-face {
+    font-family: bebas;
+    src: url(../fonts/bebas.ttf);
+}
+body{
+	font-family: ;
+	background-color: #333;
+}
+body>.container-fluid{
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+}
+body .container-fluid:last-child{
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+}
+video{
+	position: absolute;
+    z-index: -1;
+    margin-top: -120px;
+    margin-left: -15px;
+    min-width: 100%;
+    min-height: 100%;
+}
+.jumbotron p{
+	margin-bottom: 0 !important;
+	font-size: inherit !important;
+}
+.titulo h1{
+  	font-size: 18px !important;
+}
+#principal h1{
+	color: white;
+	text-transform: uppercase;
+}
+#principal p{
+	color: #fff;
+}
+#principal .input-group{
+	margin-top: 20px;
+}
+.btn-shortener{
+	background-color: #000;
+	color: white;
+	text-decoration: none;
+	text-transform: none;
+	cursor:pointer;
+}
+.btn-shortener:hover{
+	background-color: #737373;
+	color: #000;
+	font-weight: bolder;
+	cursor:pointer;
+}
+.bloco{
+	background-color: #d9d9d9;
+	color: #a6a6a6 !important;
+	padding: 10px;
+	margin-top: -30px;
+	margin-left: -45px;
+	margin-right: -45px;
+	padding-left: 40px;
+}
+.bloco strong{
+	font-size:18px;
+	vertical-align: middle;
+}
+.bloco i{
+	border: solid 1px;
+	padding: 2px;
+	border-radius: 3px;
+}
+.stopfade { 
+   opacity: .5;
+}
+.header_contato, .header_menu{
+	background-color:#f2f2f2;
+}
+.navbar{
+	border-radius: 0;
+	margin-bottom: 0;
+}
+.navbar li  {
+	min-width: 81px;
+}
+.navbar li a {
+	text-align: center;
+	color: #4d4d4d;
+}
+.navbar li a i{
+	font-size: 30px;
+}
+.navbar li a p{
+	margin: 0;
+}
+.navbar li a:hover{
+	background-color: black;
+	color: white !important;
+	border-radius: 4px;
+}
+.navbar-brand{
+	height: 81px;
+	font-size: 40px;
+	color: black;
+	padding: 18px 30px;
+	border-radius: 4px;
+	cursor: pointer;
+	margin-left:0 !important;
+}
+.navbar-brand:hover, .navbar-brand:focus{
+	background-color: black;
+	color: white;
+}
+.navbar-text{
+	margin: 15px 30px;
+    font-size: 35px;
+    text-transform: uppercase;
+	color: #e6e6e6;
+}
+.header_contato{
+	color: #8c8c8c;
+	font-size: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.header_contato a{
+	color: #8c8c8c;
+	text-decoration: none;
+}
+.header_contato_bloco{
+	display: inline;
+}
+.header_contato_bloco  span{
+	margin: 0 5px 0 20px;
+	padding: 5px 0;
+}
+.header_contato_bloco:first-child span{
+	margin-left: 0;
+	margin-right: 5px;
+}
+.header_contato_bloco:last-child {
+	min-width: 243px;
+	float: right;
+}
+.header_social{
+	display:inline;
+	padding: 5px 0;
+	cursor: pointer;
+	text-align: center;
+	float: right;
+    min-width: 81px;
+    border-radius: 4px;
+}
+.header_social:hover, .header_social:focus{
+	background-color: black;
+	color: #f2f2f2;
+}
+.whatsapp-icon{
+	color: #00b33c;
+}
+.whatsapp-icon:hover, .whatsapp-icon:focus{
+	background-color: #00b33c;
+	color: #fff;
+}
+.linkedin-icon{
+	color: #0084bf;
+}
+.linkedin-icon:hover, .linkedin-icon:focus{
+	background-color: #0084bf;
+	color: #fff;
+}
+.linkedin-icon{
+	color: #0084bf;
+}
+.instagram-icon{
+	color: #833ab4;
+}
+.instagram-icon:hover, .instagram-icon:focus{
+	background: #833ab4; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(-90deg, #f77737, #fd1d1d, #833ab4); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(-90deg, #f77737, #fd1d1d, #833ab4); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(-90deg, #f77737, #fd1d1d, #833ab4); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(-90deg, #f77737, #fd1d1d, #833ab4); /* Standard syntax */
+	color: #fff;
+}
+.facebook-icon{
+	color: #3b5998;
+}
+.facebook-icon:hover, .facebook-icon:focus{
+	background-color: #3b5998;
+	color: #fff;
+}
+.img-shortener{
+	margin-top: 100px;
+    border: 6px solid lightgrey;
+}
+.experiencia-bloco{
+	margin-bottom:	15px;
+}
+.experiencia-bloco div:first-child{
+	border-right: solid 2px #000;
+	
+}
+
+@media (max-width: 768px) {
+	.header_contato{
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+	}
+	.header_contato_bloco{
+		display: block;
+		text-align: center !important;
+	}
+	.header_contato_bloco:last-child{
+		float: none;
+		margin-top: 5px;
+	}
+	.header_contato_bloco  span{
+		margin-left: 0;
+		margin-right: 5px;
+	}
+	.header_social{
+		display:inline;
+		padding: 5px;
+		float: none;
+	}
+	.header_social a:hover, .header_social a:focus{
+		background-color: transparent;
+		color: #f2f2f2;
+		border-radius: 4px;
+	}
+	.navbar-brand{
+		height: 50px;
+		padding: 4px 15px;
+	}
+	.navbar-text{
+    font-size: 20px;
+	}
+	video{
+		display:none;
+	}
+	.img-shortener{
+		margin-top: 50px;
+		border: 6px solid lightgrey;
+	}
+	.navbar-brand p.navbar-text{
+		display:none;
+	}
+	.experiencia-bloco div:first-child{
+		border: none;
+	}
+	
+}
